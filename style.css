@@ -1,0 +1,143 @@
+body{
+	background-image: url("images/bg.jpg");
+	background-repeat: repeat;
+	font-family: Tahoma;
+}
+
+h1{
+	color: white;    
+	background: url(images/woolbg.png) repeat;   
+	-webkit-background-clip: text;    
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+	font-size: 40px;
+}
+
+h2{
+	font-size: 35px;
+	text-align: center;
+	padding-top: 25px;
+	color: #D46F26;
+}
+
+h3{
+	font-size: 25px;
+	padding-top: 15px;
+	color: #D46F26;
+	padding-left: 25px;
+}
+
+form{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, td, th{
+	border: 1px solid #232323;
+	font-size: 22px;
+}
+
+table{
+	margin-left: 25px;
+}
+
+li{
+	padding-left: 25px;
+	font-weight: 500;
+	font-size: 22px;
+	list-style-position: inside;
+}
+
+figcaption{
+	font-size: 17px;
+	font-style: italic;
+	text-align: right;
+	padding-right: 50px;
+}
+
+a{
+	text-decoration: none;
+	color: #232323;
+}
+
+a.menu-text:hover{
+	background-image: url("images/woolbg.png");
+	color: #D46F26;
+	text-decoration: none;
+}
+
+
+#main{
+	background-image: url("images/woolbg.png");
+	width : 1200px;
+	margin: auto;
+	border-radius: 15px;
+}
+
+.text{
+	padding: 25px;
+	font-weight: 500;
+	font-size: 22px;
+
+}
+
+.text-q{
+	text-align: right;
+	padding-right: 25px;
+	padding-top: 25px;
+	font-size: 22px;
+}
+
+.menu-text{
+	padding: 25px;
+}
+
+.logo{
+	width:65%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.menu{
+	background-image: url("images/limebg.png");
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+	text-align: center;
+	padding: 25px 0;
+	font-size: 30px;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+.footer{
+	background-image: url("images/limebg.png");
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	text-align: center;
+	padding: 25px 0;
+	font-size: 15px;
+	font-weight: 600;
+	margin-top: 50px;
+}
+
+.forma{
+	width: 100%;
+	padding: 0 50px;
+}
+.button{
+	width: 30%;
+	height:50px;
+	font-size: 22px;
+	background-image: url("images/limebg.png");
+	color: #232323;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
